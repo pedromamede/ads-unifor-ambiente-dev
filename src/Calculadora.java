@@ -16,18 +16,18 @@ public class Calculadora {
   }
 
   public double exponencial(double numero, double potencia) {
-    return 0;
+    return Math.pow(numero, potencia);
   }
 
   public double raizQuadrada(double numero){
-    return 0;
+    return Math.sqrt(numero);
   }
 
-  public int piso(double numero){
-    return 0;
-  }
+  public double piso(double numero){
+    return Math.floor(numero);
+  }   
 
-  public int teto(double numero){
-    return 0;
+  public double teto(double numero){
+    return Math.ceil(numero);
   }
 }
